@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelita - Jendela Literasi Tinta Emas Warga Binaan</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="logo">
+                    <i class="fas fa-bolt text-primary me-2"></i>
+                    <span class="fw-bold text-primary">Jelita</span>
+                </div>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#beranda">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#cerpen">Cerpen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#donasi">Donasi</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-link text-primary me-3">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container my-5">
+            <div class="hero row align-items-center">
+              <div class="col-lg-6 hero-text">
+                <p class="text-uppercase fw-bold text-pink" style="color:#f47ce0">Selamat Datang</p>
+                <h1 class="display-5 mb-3">Jendela Literasi Tinta Emas Warga Binaan</h1>
+                <p>Tempat Berjuta Karangan Cerita Pendek Terbaik dari Perempuan Hebat Indonesia</p>
+                <button class="btn btn-pink mt-3">Read more</button>
+              </div>
+              <div class="col-lg-6 hero-image mt-4 mt-lg-0 text-center">
+                <img src="assets/img/header_img.png" alt="Art"> 
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="search-form">
+                        <div class="row g-3">
+                            <div class="col-md-5">
+                                <input type="text" class="form-control" placeholder="Tulis Judul Disini">
+                            </div>
+                            <div class="col-md-5">
+                                <select class="form-select">
+                                    <option selected>Genre</option>
+                                    <option>Romance</option>
+                                    <option>Mystery</option>
+                                    <option>Fantasy</option>
+                                    <option>Drama</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-primary w-100">Cari Judul</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Sections -->
+    <section class="featured-section py-5">
+        <div class="container my-5">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="book-card">
+                  <div class="card-overlay">
+                    <h5 class="fw-bold">Baru Saja Terbit</h5>
+                    <button class="btn btn-pink mt-2">Buka</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="book-card">
+                  <div class="card-overlay">
+                    <h5 class="fw-bold">Terpopuler</h5>
+                    <button class="btn btn-pink mt-2">Buka</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Rekomendasi Section -->
+    <section class="recommendation-section py-5">
+        <div class="container">
+            <div class="section-header d-flex justify-content-between align-items-center mb-5">
+                <h2 class="section-title">Rekomendasi Jelita</h2>
+                <button class="btn btn-primary">View All</button>
+            </div>
+            
+            <!-- Main Article -->
+            <div class="row mb-5">
+                <div class="col-lg-8">
+                    <div class="main-article">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=400&h=300&fit=crop" 
+                                     class="img-fluid rounded" alt="VR Technology">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span class="badge bg-secondary">DEVELOPMENT</span>
+                                        <span class="text-muted ms-2">16 March 2023</span>
+                                    </div>
+                                    <h3 class="article-title">
+                                        How to make a Game look more attractive with New VR & AI Technology
+                                    </h3>
+                                    <p class="article-excerpt">
+                                        Google has been investing heavily in AI technology, and this investment is paying off. 
+                                        The company's AI capabilities are helping to improve search results, develop new products, 
+                                        and create more personalized user experiences.
+                                    </p>
+                                    <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Small Articles -->
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Travel">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">Travel</span>
+                                <span class="text-muted ms-2">10 March 2023</span>
+                            </div>
+                            <h5 class="card-title">8 Rules Of Travelling In Sea You Need To Know</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Development">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">DEVELOPMENT</span>
+                                <span class="text-muted ms-2">11 March 2023</span>
+                            </div>
+                            <h5 class="card-title">How to build strong portfolio and get a Job in UI/UX</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Sports">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">Sports</span>
+                                <span class="text-muted ms-2">10 March 2023</span>
+                            </div>
+                            <h5 class="card-title">How to Be a Professional Footballer in 2023</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reader's Choice Section -->
+    <section class="readers-choice-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header d-flex justify-content-between align-items-center mb-5">
+                <h2 class="section-title">Pilihan Pembaca</h2>
+                <button class="btn btn-primary">View All</button>
+            </div>
+            
+            <!-- Main Article -->
+            <div class="row mb-5">
+                <div class="col-lg-8">
+                    <div class="main-article">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400&h=300&fit=crop" 
+                                     class="img-fluid rounded" alt="Train Journey">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="article-content">
+                                    <div class="article-meta">
+                                        <span class="badge bg-secondary">Travel</span>
+                                        <span class="text-muted ms-2">10 March 2023</span>
+                                    </div>
+                                    <h3 class="article-title">Train Or Bus Journey? Which one suits?</h3>
+                                    <p class="article-excerpt">
+                                        When planning your next adventure, choosing between train and bus travel can be a crucial decision. 
+                                        Each mode of transportation offers unique advantages and experiences that can significantly impact your journey.
+                                    </p>
+                                    <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Small Articles Grid -->
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Development">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">DEVELOPMENT</span>
+                                <span class="text-muted ms-2">11 March 2023</span>
+                            </div>
+                            <h5 class="card-title">Best Website to research for your next project</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Dance">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">Sports</span>
+                                <span class="text-muted ms-2">10 March 2023</span>
+                            </div>
+                            <h5 class="card-title">How to Be a Dancer in 2023 with proper skills?</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Singer">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">Travel</span>
+                                <span class="text-muted ms-2">10 March 2023</span>
+                            </div>
+                            <h5 class="card-title">Who is the best singer on chart? Know him?</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Business">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">DEVELOPMENT</span>
+                                <span class="text-muted ms-2">11 March 2023</span>
+                            </div>
+                            <h5 class="card-title">How to start export import business from home?</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Chocolate">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">Sports</span>
+                                <span class="text-muted ms-2">10 March 2023</span>
+                            </div>
+                            <h5 class="card-title">Make some drinks with chocolates and milk</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="article-card">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop" 
+                             class="card-img-top" alt="Blog">
+                        <div class="card-body">
+                            <div class="article-meta mb-2">
+                                <span class="badge bg-secondary">Travel</span>
+                                <span class="text-muted ms-2">10 March 2023</span>
+                            </div>
+                            <h5 class="card-title">Latest trends in digital marketing for 2023</h5>
+                            <a href="#" class="text-primary text-decoration-none">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="newsletter-title mb-4">Get our stories delivered From us to your inbox weekly.</h2>
+                    <div class="newsletter-form">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Your Email">
+                                    <button class="btn btn-primary">Get started</button>
+                                </div>
+                                <small class="text-muted mt-2 d-block">We'll respond within 24 hours</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center text-lg-start mb-4 mb-lg-0">
+                    <div class="logo">
+                        <i class="fas fa-bolt text-primary me-2"></i>
+                        <span class="fw-bold text-primary">Jelita</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    <nav class="footer-nav">
+                        <a href="#" class="text-decoration-none text-muted me-3">Home</a>
+                        <a href="#" class="text-decoration-none text-muted me-3">Blog</a>
+                        <a href="#" class="text-decoration-none text-muted me-3">About</a>
+                        <a href="#" class="text-decoration-none text-muted">Contact Us</a>
+                    </nav>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="social-icons mb-3">
+                        <a href="#" class="btn btn-primary btn-sm rounded-circle me-2">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary btn-sm rounded-circle me-2">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary btn-sm rounded-circle me-2">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary btn-sm rounded-circle">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <p class="text-muted small mb-0">Copyright Jelita Dubasnas Inc © 2023 All Right Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html> 
