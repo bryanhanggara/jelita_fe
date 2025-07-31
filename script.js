@@ -159,25 +159,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Lazy loading for images
-    const images = document.querySelectorAll('img[src*="unsplash"]');
-    if ('IntersectionObserver' in window) {
-        const imageObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    img.src = img.src;
-                    img.classList.add('loaded');
-                    imageObserver.unobserve(img);
-                }
-            });
-        });
-
-        images.forEach(img => {
-            imageObserver.observe(img);
-        });
-    }
-
     // Back to top button
     const backToTopButton = document.createElement('button');
     backToTopButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
