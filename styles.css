@@ -68,13 +68,24 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, var(--white-color) 0%, var(--primary-light) 100%);
+    /* background: linear-gradient(135deg, var(--white-color) 0%, var(--primary-light) 100%); */
     position: relative;
     overflow: hidden;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
+/*History*/
+.page-link {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50% !important;
+  }
+
+  
 .hero {
     background-image: url('assets/img/bg_hero.png');
     background-repeat: no-repeat;
